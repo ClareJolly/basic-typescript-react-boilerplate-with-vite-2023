@@ -11,7 +11,7 @@ Basic React with typescript setup with vite
   - [Install vite](#install-vite)
   - [tldr](#tldr)
 - [Create files and folders](#create-files-and-folders)
-  - [vite.config.js](#viteconfigjs)
+  - [vite.config.ts](#viteconfigts)
   - [tsconfig.json](#tsconfigjson)
   - [index.html](#indexhtml)
   - [index.tsx](#indextsx)
@@ -139,9 +139,9 @@ Here is the folder structure
 
 --- -->
 
-### vite.config.js
+### vite.config.ts
 
-```js
+```ts
 import react from '@vitejs/plugin-react'
 import { createHtmlPlugin } from 'vite-plugin-html'
 import { defineConfig } from 'vite'
