@@ -1,0 +1,37 @@
+{
+  "name": "basic-typescript-react-boilerplate-with-vite-2023",
+  "version": "1.0.0",
+  "main": "./src/index.tsx",
+  "repository": "git@github.com:ClareJolly/basic-typescript-react-boilerplate-with-vite-2023.git",
+  "author": "Clare Jolly",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "vite build src",
+    "dev": "vite serve src",
+    "preview": "vite preview",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/plugin-transform-regenerator": "^7.17.9",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@types/react": "^18.0.1",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "babel-loader": "^8.2.4",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "vite": "^4.1.1",
+    "vite-plugin-html": "^3.2.0"
+  }
+}
