@@ -11,7 +11,6 @@ Basic React with typescript setup with vite
   - [Install vite](#install-vite)
   - [tldr](#tldr)
 - [Create files and folders](#create-files-and-folders)
-  - [.babelrc](#babelrc)
   - [vite.config.js](#viteconfigjs)
   - [tsconfig.json](#tsconfigjson)
   - [index.html](#indexhtml)
@@ -101,7 +100,7 @@ webpack is a JavaScript code bundler that traverses the dependency graph of your
 ```
 yarn add react react-dom
 
-yarn add -D vite @vitejs/plugin-react vite-plugin-html @babel/core @babel/preset-env @babel/preset-react babel-loader style-loader css-loader typescript ts-loader @babel/plugin-transform-regenerator @babel/plugin-transform-runtime @types/react @types/react-dom
+yarn add -D vite @vitejs/plugin-react vite-plugin-html @babel/core typescript @types/react @types/react-dom
 ```
 
 ---
@@ -125,7 +124,7 @@ Here is the folder structure
 
 ---
 
-### .babelrc
+<!-- ### .babelrc
 
 ```
 {
@@ -138,7 +137,7 @@ Here is the folder structure
 
 ```
 
----
+--- -->
 
 ### vite.config.js
 
